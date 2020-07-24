@@ -2,35 +2,280 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>Assignment Solution for Module 2</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+	integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Tasty food</title>
 </head>
 <body>
-	<h1 id="title">Our menu</h1>
-		<div class="large medium default-style">
-			<div id="title1">Chicken</div>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisici
-			ng elit. Suscipit dignissimos impedit earum sed eum repellendus nam placeat perspiciatis, sa
-			epe omnis temporibus eveniet dolor, mollitia dolore. Quasi voluptate perferendis neque
-			 impedit facilis, minus, alias a in inventore aliquam nulla voluptas. Impedit duci
-			 mus laudantium at in veniam eius vero vitae numquam nam?</p>
+	<!--Navbar-->
+	<nav id="top" class="navbar navbar-expand-sm navbar-light bg-light">
+		<div class="container">
+			<a id="logo" href="index.html" class="navbar-brand">Food, LLC</a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbarResponsive" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item text-center">
+						<a href="#chicken" class="nav-link active">Chicken</a>
+					</li>
+					<li class="nav-item text-center">
+						<a href="#beef" class="nav-link">Beef</a>
+					</li>
+					<li class="nav-item text-center">
+						<a href="#sushi" class="nav-link">Sushi</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div class="large medium default-style">
-			<div id="title2">Beef</div>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisici
-				ng elit. Suscipit dignissimos impedit earum sed eum repellendus nam placeat perspiciatis, sa
-				epe omnis temporibus eveniet dolor, mollitia dolore. Quasi voluptate perferendis neque
-				 impedit facilis, minus, alias a in inventore aliquam nulla voluptas. Impedit duci
-				 mus laudantium at in veniam eius vero vitae numquam nam?</p>
+	</nav>
+
+	<!--Our menu-->
+	<div class="container">
+		<div class="row text-center">
+			<div class="col">
+				<p id="menu">Our menu</p>
+			</div>
 		</div>
-		<div class="large doubleMedium default-style">
-			<div id="title3">Sushi</div>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisici
-				ng elit. Suscipit dignissimos impedit earum sed eum repellendus nam placeat perspiciatis, sa
-				epe omnis temporibus eveniet dolor, mollitia dolore. Quasi voluptate perferendis neque
-				 impedit facilis, minus, alias a in inventore aliquam nulla voluptas. Impedit duci
-				 mus laudantium at in veniam eius vero vitae numquam nam?</p>
+	</div>
+
+	<!--Chicken-->
+	<div class="container content">	
+		<div class="row text-center">
+			<div class="col">
+				<p id="chicken">Chicken</p>
+			</div>
+		</div>
+		<div class="row text-left">
+			<div class="col">
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+				</p>
+				<br>
+				<a class="back" href="#top">Back to the top</a>
+			</div>
+		</div>
+	</div>
+
+	<!--Beef-->
+	<div class="container content">	
+		<div class="row text-center">
+			<div class="col">
+				<p id="beef">Beef</p>
+			</div>
+		</div>
+		<div class="row text-left">
+			<div class="col">
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+				</p>
+				<br>
+				<a class="back" href="#top">Back to the top</a>
+			</div>
+		</div>
+	</div>
+
+	<!--Sushi-->
+	<div class="container content">	
+		<div class="row text-center">
+			<div class="col">
+				<p id="sushi">Sushi</p>
+			</div>
+		</div>
+		<div class="row text-left">
+			<div class="col">
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+					 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque cupiditate corporis architecto
+					 similique, temporibus nihil iusto porro, provident ipsam aut alias sed autem expedita neque! Fugiat
+					 , qui tempora aut molestias at possimus ut id unde provident est veniam, beatae corporis vero exerc
+					 itationem quia eligendi consequuntur perspiciatis? Natus mollitia corporis hic!
+				</p>
+				<br>
+				<a class="back" href="#top">Back to the top</a>
+			</div>
 		</div>
 	</div>
 </body>
